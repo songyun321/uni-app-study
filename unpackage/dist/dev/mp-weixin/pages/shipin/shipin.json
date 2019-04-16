@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "grace-loading": "/graceUI/components/graceLoading"
+  }
+}

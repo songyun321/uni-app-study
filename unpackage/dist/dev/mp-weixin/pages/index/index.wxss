@@ -1,0 +1,16 @@
+
+.daohang{  width: 100%;  
+    position: fixed;  
+    /* background-color: #F8F8F8; */  
+    top: 0;  
+    z-index: 999;
+}
+.daohang{height:100rpx; width: 100%;  display: -webkit-box;  display: -webkit-flex;  display: -ms-flexbox;  display: flex; -webkit-box-pack: justify; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-box-align: center; -webkit-align-items: center; -ms-flex-align: center; align-items: center;}
+.daohang image{ height: 60rpx;
+} 
+	/* 页面个性化样式 */
+.demo-btn-1{width:28px; height:28px; float:right; border-radius:3px; border:1px solid #00C777; text-align:center; font-size:0;}
+.demo-btn-1 image{width:18px; height:18px; margin:5px;}
+.grace-list view{color:#FFF;}
+.grace-list .title{border:0;}
+

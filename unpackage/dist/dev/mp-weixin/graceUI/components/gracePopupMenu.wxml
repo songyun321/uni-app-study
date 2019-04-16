@@ -1,0 +1,1 @@
+<view bind:__l="__l"><block wx:if="{{show}}"><view data-event-opts="{{[['tap',[['hideMenu',['$event']]]]]}}" class="grace-popup-mask" bindtap="__e"></view></block><view class="grace-popup-menu" style="{{'top:'+(top+'px')+';'+('background:'+(bgColor)+';')+('width:'+(menuWidth)+';')}}" hidden="{{!show}}"><slot></slot></view></view>

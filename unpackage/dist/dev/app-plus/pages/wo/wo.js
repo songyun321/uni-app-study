@@ -1,0 +1,2 @@
+setCssToHead([".",[1],"grace-boxes-img wx-image{width:",[0,80],"; height:",[0,80],"; border-radius:",[0,8],";}\n",],undefined,{path:"./pages/wo/wo.wxss"})();
+document.dispatchEvent(new CustomEvent("generateFuncReady", { detail: { generateFunc: $gwx('./pages/wo/wo.wxml') } }));

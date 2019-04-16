@@ -1,0 +1,2 @@
+<import src="./shipin.vue.wxml" />
+    <template is="99b3b89c" data="{{ ...$root['0'], $root }}"/>

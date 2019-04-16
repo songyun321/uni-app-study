@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "grace-popup-menu": "/graceUI/components/gracePopupMenu"
+  }
+}
