@@ -1,2 +1,2 @@
 <import src="./xiaoxi.vue.wxml" />
-    <template is="792730d2" data="{{ ...$root['0'], $root }}"/>
+    <template is="undefined" data="{{ ...$root['0'], $root }}"/>
