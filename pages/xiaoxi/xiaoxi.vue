@@ -41,7 +41,33 @@
                         <image src="../../static/xiaoxi/zhoujielun.jpg" mode="widthFix"></image>
                     </view>
                     <view class="title">周杰伦<text></text></view>
+					<text></text>
                 </view>
+				
+				<view class='items'>
+				    <view class="icons">
+				        <image src="../../static/xiaoxi/zhoujielun.jpg" mode="widthFix"></image>
+				    </view>
+				    <view class="title">周杰伦<text></text></view>
+					<text></text>
+				</view>
+				
+				<view class='items'>
+				    <view class="icons">
+				        <image src="../../static/xiaoxi/zhoujielun.jpg" mode="widthFix"></image>
+				    </view>
+				    <view class="title">周杰伦<text></text></view>
+					<text></text>
+				</view>
+				
+				<view class='items'>
+				    <view class="icons">
+				        <image src="../../static/xiaoxi/zhoujielun.jpg" mode="widthFix"></image>
+				    </view>
+				    <view class="title">周杰伦<text></text></view>
+					<text></text>
+				</view>
+				
 				
 				<!-- 消息列表 -->
     		   
