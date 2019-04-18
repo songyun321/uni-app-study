@@ -1,4 +1,5 @@
 <import src="/graceUI/components/gracePopupMenu.vue.wxml" />
+<import src="/common/slots.wxml" />
 
 <template name="18d60ff8-default-18d60ff8-0"><view class="_view 18d60ff8 grace-list" style="background:#4C4C4C; border:0;"><view class="_view 18d60ff8 items"><view class="_view 18d60ff8 icons"><image src="../../static/wo/xiezuo.png" mode="widthFix" class="_image 18d60ff8"></image></view><navigator url="../write/write" class="_navigator 18d60ff8"><view class="_view 18d60ff8 title" bindtap="handleProxy" data-eventid="{{'18d60ff8-3'}}" data-comkey="{{$k}}">写博客</view></navigator></view><view class="_view 18d60ff8 items"><view class="_view 18d60ff8 icons"><image src="../../static/wo/jiu01.png" class="_image 18d60ff8"></image></view><view class="_view 18d60ff8 title" bindtap="handleProxy" data-eventid="{{'18d60ff8-4'}}" data-comkey="{{$k}}">图片</view></view><view class="_view 18d60ff8 items"><view class="_view 18d60ff8 icons"><image src="../../static/wo/shipin.png" mode="widthFix" class="_image 18d60ff8"></image></view><view class="_view 18d60ff8 title" bindtap="handleProxy" data-eventid="{{'18d60ff8-5'}}" data-comkey="{{$k}}">视频</view></view></view></template>
 
