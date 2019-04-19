@@ -1,0 +1,11 @@
+
+.resou{ height: 230rpx;margin-left: 20rpx;}
+.resouzi{ height: 40rpx; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex;-webkit-flex-wrap: nowrap;-ms-flex-wrap: nowrap;flex-wrap: nowrap;font-size: small;border-bottom-width: 30rpx;}
+.resouzi image{height: 30rpx;width: 30rpx;}
+.neinong{border-width: 20rpx;}
+.zuoce{width: 350rpx;float: left;border-left-width: 20rpx;}
+.zuoce image{height: 30rpx;width: 30rpx;}
+.youce{width: 350rpx;float: right;border-left-width: 20rpx;
+}
+.youce image{height: 30rpx;width: 30rpx;}
+

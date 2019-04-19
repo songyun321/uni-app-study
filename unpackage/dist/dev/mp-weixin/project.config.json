@@ -7,7 +7,7 @@
     "urlCheck": false
   },
   "compileType": "miniprogram",
-  "libVersion": "",
+  "libVersion": "2.6.4",
   "appid": "touristappid",
   "projectname": "weibo",
   "condition": {
