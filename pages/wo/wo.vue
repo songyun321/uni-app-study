@@ -22,7 +22,7 @@
        
         <view class="grace-padding grace-bg-white grace-common-mt grace-common-border">
             <view style="padding:50upx 0;" class="grace-wrap">
-               <navigator class="grace-boxes">
+               <navigator class="grace-boxes" url="../xiancecece/xiancecece">
                    <view class="grace-boxes-img">
                    <image src="../../static/wo/jiu01.png" mode="widthFix"></image>
                    </view>
@@ -52,7 +52,7 @@
                     </view>
                     <view class="grace-boxes-text">钱包</view>
                 </view>
-				<navigator class="grace-boxes">
+				<navigator class="grace-boxes" url="../youxuan/youxuan">
 				    <view class="grace-boxes-img">
 				    <image src="../../static/wo/jiu06.png" mode="widthFix"></image>
 				    </view>

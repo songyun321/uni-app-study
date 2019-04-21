@@ -9,11 +9,15 @@
 		}
 	    ,{
             "path" : "pages/shipin/shipin",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "视频"
+			}
         }
         ,{
             "path" : "pages/faxian/faxian",
-            "style" : {}
+            "style" : {
+				"navigationBarTitleText": "发现"
+			}
         }
         ,{
             "path" : "pages/xiaoxi/xiaoxi",
@@ -55,6 +59,21 @@
         ,{
             "path" : "pages/shipinxiangqing/shipinxiangqing",
             "style" : {}
+        }
+        
+      
+        
+        ,{
+            "path" : "pages/zhoujielunxiaoxo/zhoujielunxiaoxo",
+            "style" : {
+				"navigationBarTitleText": "周杰伦"
+			}
+        }
+        ,{
+            "path" : "pages/xiancecece/xiancecece",
+            "style" : {
+				"navigationBarTitleText": "相册"
+			}
         }
     ],
 	"globalStyle": {

@@ -44,13 +44,16 @@
 					<text></text>
                 </view>
 				
-				<view class='items'>
-				    <view class="icons">
-				        <image src="../../static/xiaoxi/zhoujielun.jpg" mode="widthFix"></image>
-				    </view>
-				    <view class="title">周杰伦<text></text></view>
-					<text></text>
-				</view>
+				<navigator url="../zhoujielunxiaoxo/zhoujielunxiaoxo">
+					<view class='items'>
+					    <view class="icons">
+					        <image src="../../static/xiaoxi/zhoujielun.jpg" mode="widthFix"></image>
+					    </view>
+					    <view class="title">周杰伦<text></text></view>
+						<text></text>
+					</view>
+				</navigator>
+				
 				
 				<view class='items'>
 				    <view class="icons">

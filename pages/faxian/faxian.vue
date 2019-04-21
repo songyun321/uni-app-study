@@ -79,7 +79,7 @@
                 <scroll-view class="grace-tab-title" scroll-x="true">
                     <view v-for="(tab, index) in tabs" :class="[tabCurrentIndex == index ? 'grace-tab-current' : '']"  :id="'tabTag-'+index" @tap="tabChange" :key="index">{{tab.name}}</view>
                 </scroll-view>
-                <swiper class="grace-tab-swiper" :current="swiperCurrentIndex" @change="swiperChange" style="height:850upx;">
+                <swiper class="grace-tab-swiper" :current="swiperCurrentIndex" @change="swiperChange" style="height:8590upx;">
                     <swiper-item>
 			<view class="grace-news-list">
 				

@@ -1,0 +1,5 @@
+
+.tupian{display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap;}
+.tupian image{margin-right: 10rpx; margin-bottom:10rpx; height: 240rpx; width: 240rpx;}
+
+

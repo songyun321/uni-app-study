@@ -9,7 +9,9 @@
     "pages/denglu/denglu",
     "pages/shezhi/shezhi",
     "pages/write/write",
-    "pages/shipinxiangqing/shipinxiangqing"
+    "pages/shipinxiangqing/shipinxiangqing",
+    "pages/zhoujielunxiaoxo/zhoujielunxiaoxo",
+    "pages/xiancecece/xiancecece"
   ],
   "subPackages": [],
   "window": {

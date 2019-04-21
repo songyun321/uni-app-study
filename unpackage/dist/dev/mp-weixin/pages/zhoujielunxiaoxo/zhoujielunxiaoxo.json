@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "grace-i-m-footer": "/graceUI/components/graceIMFooter",
+    "grace-i-m-msg": "/graceUI/components/graceIMMsg"
+  }
+}

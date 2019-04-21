@@ -102,11 +102,11 @@
 /******/
 /******/
 /******/ 		// mini-css-extract-plugin CSS loading
-/******/ 		var cssChunks = {"graceUI/components/gracePopupMenu":1,"graceUI/components/graceLoading":1};
+/******/ 		var cssChunks = {"graceUI/components/gracePopupMenu":1,"graceUI/components/graceLoading":1,"graceUI/components/graceIMFooter":1,"graceUI/components/graceIMMsg":1};
 /******/ 		if(installedCssChunks[chunkId]) promises.push(installedCssChunks[chunkId]);
 /******/ 		else if(installedCssChunks[chunkId] !== 0 && cssChunks[chunkId]) {
 /******/ 			promises.push(installedCssChunks[chunkId] = new Promise(function(resolve, reject) {
-/******/ 				var href = "" + ({"graceUI/components/gracePopupMenu":"graceUI/components/gracePopupMenu","graceUI/components/graceLoading":"graceUI/components/graceLoading"}[chunkId]||chunkId) + ".wxss";
+/******/ 				var href = "" + ({"graceUI/components/gracePopupMenu":"graceUI/components/gracePopupMenu","graceUI/components/graceLoading":"graceUI/components/graceLoading","graceUI/components/graceIMFooter":"graceUI/components/graceIMFooter","graceUI/components/graceIMMsg":"graceUI/components/graceIMMsg"}[chunkId]||chunkId) + ".wxss";
 /******/ 				var fullhref = __webpack_require__.p + href;
 /******/ 				var existingLinkTags = document.getElementsByTagName("link");
 /******/ 				for(var i = 0; i < existingLinkTags.length; i++) {
