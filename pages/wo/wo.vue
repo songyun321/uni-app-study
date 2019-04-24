@@ -28,7 +28,7 @@
                    </view>
                    <view class="grace-boxes-text">相册</view>
                </navigator>
-                <navigator class="grace-boxes">
+                <navigator class="grace-boxes" url="../wodegus/wodegus">
                     <view class="grace-boxes-img">
                     <image src="../../static/wo/jiu02.png" mode="widthFix"></image>
                     </view>
@@ -40,19 +40,24 @@
                    </view>
                    <view class="grace-boxes-text">我的赞</view>
                </navigator>
+			   
                 <navigator class="grace-boxes">
                     <view class="grace-boxes-img">
                     <image src="../../static/wo/jiu04.png" mode="widthFix"></image>
                     </view>
                     <view class="grace-boxes-text">粉丝服务</view>
                 </navigator>
-                <view class="grace-boxes">
-                    <view class="grace-boxes-img">
-                    <image src="../../static/wo/jiu05.png" mode="widthFix"></image>
-                    </view>
-                    <view class="grace-boxes-text">钱包</view>
-                </view>
-				<navigator class="grace-boxes" url="../youxuan/youxuan">
+				
+				
+				<navigator class="grace-boxes" url="../qianbao/qianbao">
+				    <view class="grace-boxes-img">
+				    <image src="../../static/wo/jiu05.png" mode="widthFix"></image>
+				    </view>
+				    <view class="grace-boxes-text">钱包</view>
+				</navigator>
+				
+				
+				<navigator class="grace-boxes" url="../yououyouxuan/yououyouxuan">
 				    <view class="grace-boxes-img">
 				    <image src="../../static/wo/jiu06.png" mode="widthFix"></image>
 				    </view>

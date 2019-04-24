@@ -203,6 +203,23 @@ createPage(_info.default);
 
 /***/ }),
 
+/***/ "../../../../vuestudy/weibo/main.js?{\"page\":\"pages%2Fqianbao%2Fqianbao\"}":
+/*!**********************************************************************!*\
+  !*** F:/vuestudy/weibo/main.js?{"page":"pages%2Fqianbao%2Fqianbao"} ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../vuestudy/weibo/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _qianbao = _interopRequireDefault(__webpack_require__(/*! ./pages/qianbao/qianbao.vue */ "../../../../vuestudy/weibo/pages/qianbao/qianbao.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_qianbao.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../../vuestudy/weibo/main.js?{\"page\":\"pages%2Fshezhi%2Fshezhi\"}":
 /*!********************************************************************!*\
   !*** F:/vuestudy/weibo/main.js?{"page":"pages%2Fshezhi%2Fshezhi"} ***!
@@ -271,6 +288,23 @@ createPage(_wo.default);
 
 /***/ }),
 
+/***/ "../../../../vuestudy/weibo/main.js?{\"page\":\"pages%2Fwodegus%2Fwodegus\"}":
+/*!**********************************************************************!*\
+  !*** F:/vuestudy/weibo/main.js?{"page":"pages%2Fwodegus%2Fwodegus"} ***!
+  \**********************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../vuestudy/weibo/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _wodegus = _interopRequireDefault(__webpack_require__(/*! ./pages/wodegus/wodegus.vue */ "../../../../vuestudy/weibo/pages/wodegus/wodegus.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_wodegus.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
 /***/ "../../../../vuestudy/weibo/main.js?{\"page\":\"pages%2Fwrite%2Fwrite\"}":
 /*!******************************************************************!*\
   !*** F:/vuestudy/weibo/main.js?{"page":"pages%2Fwrite%2Fwrite"} ***!
@@ -318,6 +352,23 @@ createPage(_xiancecece.default);
 var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
 var _xiaoxi = _interopRequireDefault(__webpack_require__(/*! ./pages/xiaoxi/xiaoxi.vue */ "../../../../vuestudy/weibo/pages/xiaoxi/xiaoxi.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
 createPage(_xiaoxi.default);
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
+
+/***/ }),
+
+/***/ "../../../../vuestudy/weibo/main.js?{\"page\":\"pages%2Fyououyouxuan%2Fyououyouxuan\"}":
+/*!********************************************************************************!*\
+  !*** F:/vuestudy/weibo/main.js?{"page":"pages%2Fyououyouxuan%2Fyououyouxuan"} ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+/* WEBPACK VAR INJECTION */(function(createPage) {__webpack_require__(/*! uni-pages */ "../../../../vuestudy/weibo/pages.json");
+
+var _vue = _interopRequireDefault(__webpack_require__(/*! vue */ "./node_modules/@dcloudio/vue-cli-plugin-uni/packages/mp-vue/dist/mp.runtime.esm.js"));
+var _yououyouxuan = _interopRequireDefault(__webpack_require__(/*! ./pages/yououyouxuan/yououyouxuan.vue */ "../../../../vuestudy/weibo/pages/yououyouxuan/yououyouxuan.vue"));function _interopRequireDefault(obj) {return obj && obj.__esModule ? obj : { default: obj };}
+createPage(_yououyouxuan.default);
 /* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./node_modules/@dcloudio/uni-mp-weixin/dist/index.js */ "./node_modules/@dcloudio/uni-mp-weixin/dist/index.js")["createPage"]))
 
 /***/ }),
@@ -534,7 +585,7 @@ function processArgs(methodName, fromArgs) {var argsOption = arguments.length > 
         } else if (isPlainObject(keyOption)) {// {name:newName,value:value}可重新指定参数 key:value
           toArgs[keyOption.name ? keyOption.name : key] = keyOption.value;
         }
-      } else if (CALLBACKS.includes(key)) {
+      } else if (CALLBACKS.indexOf(key) !== -1) {
         toArgs[key] = processCallback(methodName, fromArgs[key], returnValue);
       } else {
         if (!keepFromArgs) {
@@ -697,11 +748,33 @@ Component = function Component() {var options = arguments.length > 0 && argument
   return MPComponent(options);
 };
 
-var MOCKS = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__', '__webviewId__'];
+var mocks = ['__route__', '__wxExparserNodeId__', '__wxWebviewId__'];
 
-function initMocks(vm) {
+function triggerLink(mpInstance, vueOptions) {
+  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {
+    bubbles: true,
+    composed: true });
+
+}
+
+function handleLink(event) {
+  if (event.detail.$mp) {// vm
+    if (!event.detail.$parent) {
+      event.detail.$parent = this.$vm;
+      event.detail.$parent.$children.push(event.detail);
+
+      event.detail.$root = this.$vm.$root;
+    }
+  } else {// vueOptions
+    if (!event.detail.parent) {
+      event.detail.parent = this.$vm;
+    }
+  }
+}
+
+function initMocks(vm, mocks) {
   var mpInstance = vm.$mp[vm.mpType];
-  MOCKS.forEach(function (mock) {
+  mocks.forEach(function (mock) {
     if (hasOwn(mpInstance, mock)) {
       vm[mock] = mpInstance[mock];
     }
@@ -724,7 +797,7 @@ function getData(vueOptions, context) {
     try {
       data = data.call(context); // 支持 Vue.prototype 上挂的数据
     } catch (e) {
-      if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+      if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
         console.warn('根据 Vue 的 data 函数初始化小程序 data 失败，请尽量确保 data 函数中不访问 vm 对象，否则可能影响首次数据渲染速度。', data);
       }
     }
@@ -733,6 +806,10 @@ function getData(vueOptions, context) {
       // 对 data 格式化
       data = JSON.parse(JSON.stringify(data));
     } catch (e) {}
+  }
+
+  if (!isPlainObject(data)) {
+    data = {};
   }
 
   Object.keys(methods).forEach(function (methodName) {
@@ -754,9 +831,65 @@ function createObserver(name) {
   };
 }
 
-function getProperties(props) {
-  var properties = {
-    vueSlots: { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots
+function getBehaviors(vueOptions) {
+  var vueBehaviors = vueOptions['behaviors'];
+  var vueExtends = vueOptions['extends'];
+  var vueMixins = vueOptions['mixins'];
+
+  var vueProps = vueOptions['props'];
+
+  if (!vueProps) {
+    vueOptions['props'] = vueProps = [];
+  }
+
+  var behaviors = [];
+  if (Array.isArray(vueBehaviors)) {
+    vueBehaviors.forEach(function (behavior) {
+      behaviors.push(behavior.replace('uni://', "wx".concat("://")));
+      if (behavior === 'uni://form-field') {
+        if (Array.isArray(vueProps)) {
+          vueProps.push('name');
+          vueProps.push('value');
+        } else {
+          vueProps['name'] = String;
+          vueProps['value'] = null;
+        }
+      }
+    });
+  }
+  if (isPlainObject(vueExtends) && vueExtends.props) {
+    behaviors.push(
+    Behavior({
+      properties: getProperties(vueExtends.props, true) }));
+
+
+  }
+  if (Array.isArray(vueMixins)) {
+    vueMixins.forEach(function (vueMixin) {
+      if (isPlainObject(vueMixin) && vueMixin.props) {
+        behaviors.push(
+        Behavior({
+          properties: getProperties(vueMixin.props, true) }));
+
+
+      }
+    });
+  }
+  return behaviors;
+}
+
+function parsePropType(key, type, defaultValue, file) {
+  // [String]=>String
+  if (Array.isArray(type) && type.length === 1) {
+    return type[0];
+  }
+  return type;
+}
+
+function getProperties(props) {var isBehavior = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : false;var file = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : '';
+  var properties = {};
+  if (!isBehavior) {
+    properties.vueSlots = { // 小程序不能直接定义 $slots 的 props，所以通过 vueSlots 转换到 $slots
       type: null,
       value: [],
       observer: function observer(newVal, oldVal) {
@@ -767,9 +900,9 @@ function getProperties(props) {
         this.setData({
           $slots: $slots });
 
-      } } };
+      } };
 
-
+  }
   if (Array.isArray(props)) {// ['title']
     props.forEach(function (key) {
       properties[key] = {
@@ -785,14 +918,18 @@ function getProperties(props) {
         if (isFn(value)) {
           value = value();
         }
+
+        opts.type = parsePropType(key, opts.type, value, file);
+
         properties[key] = {
-          type: PROP_TYPES.includes(opts.type) ? opts.type : null,
+          type: PROP_TYPES.indexOf(opts.type) !== -1 ? opts.type : null,
           value: value,
           observer: createObserver(key) };
 
       } else {// content:String
+        var type = parsePropType(key, opts, null, file);
         properties[key] = {
-          type: PROP_TYPES.includes(opts) ? opts : null,
+          type: PROP_TYPES.indexOf(type) !== -1 ? type : null,
           observer: createObserver(key) };
 
       }
@@ -802,6 +939,11 @@ function getProperties(props) {
 }
 
 function wrapper$1(event) {
+  // TODO 又得兼容 mpvue 的 mp 对象
+  try {
+    event.mp = JSON.parse(JSON.stringify(event));
+  } catch (e) {}
+
   event.stopPropagation = noop;
   event.preventDefault = noop;
 
@@ -810,9 +952,6 @@ function wrapper$1(event) {
   if (!hasOwn(event, 'detail')) {
     event.detail = {};
   }
-
-  // TODO 又得兼容 mpvue 的 mp 对象
-  event.mp = event;
 
   if (isPlainObject(event.detail)) {
     event.target = Object.assign({}, event.target, event.detail);
@@ -858,7 +997,7 @@ function getExtraValue(vm, dataPathsArray) {
   return context;
 }
 
-function processEventExtra(vm, extra) {
+function processEventExtra(vm, extra, event) {
   var extraObj = {};
 
   if (Array.isArray(extra) && extra.length) {
@@ -878,7 +1017,13 @@ function processEventExtra(vm, extra) {
         if (!dataPath) {// model,prop.sync
           extraObj['$' + index] = vm;
         } else {
-          extraObj['$' + index] = vm.__get_value(dataPath);
+          if (dataPath === '$event') {// $event
+            extraObj['$' + index] = event;
+          } else if (dataPath.indexOf('$event.') === 0) {// $event.target.value
+            extraObj['$' + index] = vm.__get_value(dataPath.replace('$event.', ''), event);
+          } else {
+            extraObj['$' + index] = vm.__get_value(dataPath);
+          }
         }
       } else {
         extraObj['$' + index] = getExtraValue(vm, dataPath);
@@ -912,7 +1057,7 @@ function processEventArgs(vm, event) {var args = arguments.length > 2 && argumen
     }
   }
 
-  var extraObj = processEventExtra(vm, extra);
+  var extraObj = processEventExtra(vm, extra, event);
 
   var ret = [];
   args.forEach(function (arg) {
@@ -1057,7 +1202,7 @@ function createApp(vm) {
         {// 头条的 selectComponent 竟然是异步的
           initRefs(this);
         }
-        initMocks(this);
+        initMocks(this, mocks);
       }
     },
     created: function created() {// 处理 injections
@@ -1090,28 +1235,6 @@ function createApp(vm) {
   App(appOptions);
 
   return vm;
-}
-
-function triggerLink(mpInstance, vueOptions) {
-  mpInstance.triggerEvent('__l', mpInstance.$vm || vueOptions, {
-    bubbles: true,
-    composed: true });
-
-}
-
-function handleLink(event) {
-  if (event.detail.$mp) {// vm
-    if (!event.detail.$parent) {
-      event.detail.$parent = this.$vm;
-      event.detail.$parent.$children.push(event.detail);
-
-      event.detail.$root = this.$vm.$root;
-    }
-  } else {// vueOptions
-    if (!event.detail.parent) {
-      event.detail.parent = this.$vm;
-    }
-  }
 }
 
 var hooks$1 = [
@@ -1222,7 +1345,9 @@ function initVm$2(VueComponent) {
 function createComponent(vueOptions) {
   vueOptions = vueOptions.default || vueOptions;
 
-  var properties = getProperties(vueOptions.props);
+  var behaviors = getBehaviors(vueOptions);
+
+  var properties = getProperties(vueOptions.props, false, vueOptions.__file);
 
   var VueComponent = _vue.default.extend(vueOptions);
 
@@ -1232,6 +1357,7 @@ function createComponent(vueOptions) {
       addGlobalClass: true },
 
     data: getData(vueOptions, _vue.default.prototype),
+    behaviors: behaviors,
     properties: properties,
     lifetimes: {
       attached: function attached() {
@@ -5887,7 +6013,7 @@ function initProps (vm, propsOptions) {
       }
       defineReactive$$1(props, key, value, function () {
         if (!isRoot && !isUpdatingChildComponent) {
-          warn(
+          !vm._getFormData && warn(//fixed by xxxxxx uni://form-field 时不告警
             "Avoid mutating a prop directly since the value will be " +
             "overwritten whenever the parent component re-renders. " +
             "Instead, use a data or computed property based on the prop's " +
@@ -6210,10 +6336,7 @@ function initMixin (Vue) {
     initEvents(vm);
     initRender(vm);
     callHook(vm, 'beforeCreate');
-    // initInjections(vm) // resolve injections before data/props
     initState(vm);
-    // initProvide(vm) // resolve provide after data/props
-    // callHook(vm, 'created')
 
     /* istanbul ignore if */
     if ( true && config.performance && mark) {
@@ -6769,6 +6892,67 @@ function type(obj) {
 
 /*  */
 
+function flushCallbacks$1(vm) {
+    if (vm.__next_tick_callbacks && vm.__next_tick_callbacks.length) {
+        if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            var mpInstance = vm.$mp[vm.mpType];
+            console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
+                ']:flushCallbacks[' + vm.__next_tick_callbacks.length + ']');
+        }
+        var copies = vm.__next_tick_callbacks.slice(0);
+        vm.__next_tick_callbacks.length = 0;
+        for (var i = 0; i < copies.length; i++) {
+            copies[i]();
+        }
+    }
+}
+
+function hasRenderWatcher(vm) {
+    return queue.find(function (watcher) { return vm._watcher === watcher; })
+}
+
+function nextTick$1(vm, cb) {
+    //1.nextTick 之前 已 setData 且 setData 还未回调完成
+    //2.nextTick 之前存在 render watcher
+    if (!vm.__next_tick_pending && !hasRenderWatcher(vm)) {
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+            var mpInstance = vm.$mp[vm.mpType];
+            console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + vm._uid +
+                ']:nextVueTick');
+        }
+        return nextTick(cb, vm)
+    }else{
+        if(Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG){
+            var mpInstance$1 = vm.$mp[vm.mpType];
+            console.log('[' + (+new Date) + '][' + (mpInstance$1.is || mpInstance$1.route) + '][' + vm._uid +
+                ']:nextMPTick');
+        }
+    }
+    var _resolve;
+    if (!vm.__next_tick_callbacks) {
+        vm.__next_tick_callbacks = [];
+    }
+    vm.__next_tick_callbacks.push(function () {
+        if (cb) {
+            try {
+                cb.call(vm);
+            } catch (e) {
+                handleError(e, vm, 'nextTick');
+            }
+        } else if (_resolve) {
+            _resolve(vm);
+        }
+    });
+    // $flow-disable-line
+    if (!cb && typeof Promise !== 'undefined') {
+        return new Promise(function (resolve) {
+            _resolve = resolve;
+        })
+    }
+}
+
+/*  */
+
 function cloneWithData(vm) {
     // 确保当前 vm 所有数据被同步
     var dataKeys = [].concat(
@@ -6781,11 +6965,19 @@ function cloneWithData(vm) {
     }, Object.create(null));
     //TODO 需要把无用数据处理掉，比如 list=>l0 则 list 需要移除，否则多传输一份数据
     Object.assign(ret, vm.$mp.data || {});
-    //remove observer
+    if (
+        Array.isArray(vm.$options.behaviors) &&
+        vm.$options.behaviors.indexOf('uni://form-field') !== -1
+    ) { //form-field
+        ret['name'] = vm.name;
+        ret['value'] = vm.value;
+    }
     return JSON.parse(JSON.stringify(ret))
 }
 
 var patch = function(oldVnode, vnode) {
+    var this$1 = this;
+
     if (vnode === null) { //destroy
         return
     }
@@ -6799,14 +6991,18 @@ var patch = function(oldVnode, vnode) {
         });
         var diffData = diff(data, mpData);
         if (Object.keys(diffData).length) {
-            if (Object({"VUE_APP_PLATFORM":"mp-weixin","NODE_ENV":"development","BASE_URL":"/"}).VUE_APP_DEBUG) {
+            if (Object({"NODE_ENV":"development","VUE_APP_PLATFORM":"mp-weixin","BASE_URL":"/"}).VUE_APP_DEBUG) {
                 console.log('[' + (+new Date) + '][' + (mpInstance.is || mpInstance.route) + '][' + this._uid +
                     ']差量更新',
                     JSON.stringify(diffData));
             }
-            mpInstance.setData(diffData,function(){
-                //TODO
+            this.__next_tick_pending = true;
+            mpInstance.setData(diffData, function () {
+                this$1.__next_tick_pending = false;
+                flushCallbacks$1(this$1);
             });
+        } else {
+            flushCallbacks$1(this);
         }
     }
 };
@@ -6975,6 +7171,10 @@ function internalMixin(Vue) {
         }
         return oldEmit.apply(this, arguments)
     };
+    
+    Vue.prototype.$nextTick = function (fn) {
+      return nextTick$1(this, fn)
+    };
 
     MP_METHODS.forEach(function (method) {
         Vue.prototype[method] = function(args) {
@@ -7009,10 +7209,10 @@ function internalMixin(Vue) {
 
     Vue.prototype.__set_model = function(target, key, value, modifiers) {
         if (Array.isArray(modifiers)) {
-            if (modifiers.includes('trim')) {
+            if (modifiers.indexOf('trim') !== -1) {
                 value = value.trim();
             }
-            if (modifiers.includes('number')) {
+            if (modifiers.indexOf('number') !== -1) {
                 value = this._n(value);
             }
         }
@@ -7090,7 +7290,7 @@ function lifecycleMixin$1(Vue) {
         var methods = extendOptions.methods;
         if (methods) {
             Object.keys(methods).forEach(function (methodName) {
-                if (LIFECYCLE_HOOKS$1.includes(methodName)) {
+                if (LIFECYCLE_HOOKS$1.indexOf(methodName)!==-1) {
                     extendOptions[methodName] = methods[methodName];
                     delete methods[methodName];
                 }

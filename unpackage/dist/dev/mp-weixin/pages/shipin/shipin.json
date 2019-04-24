@@ -1,4 +1,5 @@
 {
+  "navigationBarTitleText": "视频",
   "usingComponents": {
     "grace-loading": "/graceUI/components/graceLoading"
   }

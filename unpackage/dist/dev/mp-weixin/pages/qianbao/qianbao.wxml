@@ -1,0 +1,1 @@
+<view bind:__l="__l"><view class="shouqian"><view class="zuo"><image src="../../static/qianbao/shoufukuan.png"></image></view><view class="you"><image src="../../static/qianbao/qianbaobaobao.png"></image></view></view><view style="height:30rpx;"></view></view>

@@ -75,6 +75,21 @@
 				"navigationBarTitleText": "相册"
 			}
         }
+        ,{
+            "path" : "pages/wodegus/wodegus",
+            "style" : {
+				"navigationBarTitleText": "故事"
+			}
+        }
+        ,{
+            "path" : "pages/qianbao/qianbao",
+            "style" : {}
+        }
+        
+        ,{
+            "path" : "pages/yououyouxuan/yououyouxuan",
+            "style" : {}
+        }
     ],
 	"globalStyle": {
 		"navigationBarTextStyle": "black",

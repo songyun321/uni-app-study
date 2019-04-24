@@ -11,7 +11,10 @@
     "pages/write/write",
     "pages/shipinxiangqing/shipinxiangqing",
     "pages/zhoujielunxiaoxo/zhoujielunxiaoxo",
-    "pages/xiancecece/xiancecece"
+    "pages/xiancecece/xiancecece",
+    "pages/wodegus/wodegus",
+    "pages/qianbao/qianbao",
+    "pages/yououyouxuan/yououyouxuan"
   ],
   "subPackages": [],
   "window": {

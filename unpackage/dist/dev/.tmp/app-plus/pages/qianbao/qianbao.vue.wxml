@@ -1,0 +1,1 @@
+<template name="undefined"><view class="_view"><view class="_view shouqian"><view class="_view zuo"><image src="../../static/qianbao/shoufukuan.png" class="_image"></image></view><view class="_view you"><image src="../../static/qianbao/qianbaobaobao.png" class="_image"></image></view></view><view style="height: 30rpx;" class="_view"></view></view></template>

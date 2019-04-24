@@ -1,0 +1,14 @@
+
+.shouqian{  margin-bottom: 20rpx; background-color: #3CB371;height: 280rpx;width: 650rpx; margin: 0 auto;
+}
+.zuo{ float: left;width: 50%; display: -webkit-box; display: -webkit-flex; display: -ms-flexbox; display: flex ;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center; padding-top: 80rpx;}
+.zuo image{width: 100rpx; height: 100rpx;
+}
+.you{ float: right; width: 50%;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-box-pack: center;-webkit-justify-content: center;-ms-flex-pack: center;justify-content: center;-webkit-box-align: center;-webkit-align-items: center;-ms-flex-align: center;align-items: center; padding-top: 80rpx;}
+.you image{width: 100rpx; height: 100rpx;
+}
+.gezi{width: 650rpx; height: 750rpx;display: -webkit-box;display: -webkit-flex;display: -ms-flexbox;display: flex;-webkit-flex-wrap: wrap;-ms-flex-wrap: wrap;flex-wrap: wrap; margin: 0 auto;
+}
+.diyige{width: 215; height: 195; background-color: #10AEFF;}
+.diyige image { height: 100rpx;width: 100rpx;}
+
