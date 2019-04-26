@@ -57,7 +57,7 @@
 				</navigator>
 				
 				
-				<navigator class="grace-boxes" url="../yououyouxuan/yououyouxuan">
+				<navigator class="grace-boxes" url="../youyouyoux/youyouyoux">
 				    <view class="grace-boxes-img">
 				    <image src="../../static/wo/jiu06.png" mode="widthFix"></image>
 				    </view>

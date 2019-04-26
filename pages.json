@@ -86,9 +86,13 @@
             "style" : {}
         }
         
+        
+        
         ,{
-            "path" : "pages/yououyouxuan/yououyouxuan",
-            "style" : {}
+            "path" : "pages/youyouyoux/youyouyoux",
+            "style" : {
+				"navigationBarTitleText": "优选"
+			}
         }
     ],
 	"globalStyle": {

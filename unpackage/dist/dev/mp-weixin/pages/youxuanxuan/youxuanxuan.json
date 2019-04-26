@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "优选",
+  "usingComponents": {
+    "grace-swiper": "/graceUI/components/graceSwiper",
+    "grace-loading": "/graceUI/components/graceLoading"
+  }
+}

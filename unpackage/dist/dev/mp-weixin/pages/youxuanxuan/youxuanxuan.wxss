@@ -1,0 +1,11 @@
+
+.grace-search-in{border-radius:0;}
+.input-placeholder{height:28rpx !important; line-height:28rpx;}
+.index-body{background:#E52852; height:350px; padding:8px 15rpx; border-bottom-left-radius:30px; border-bottom-right-radius:30px;}
+.grace-boxes-text{color:#FFF;}
+.grace-scroll-x{background:#F2F3F4; padding:6px 5px !important; width:710rpx !important;}
+.grace-scroll-x image{width:100%;}
+.grace-scroll-x .grace-items{width:230rpx; height:auto; font-size:0; margin:0 6rpx;}
+.index-banner{margin:10px 0;}
+.index-banner image{width:100%;}
+
